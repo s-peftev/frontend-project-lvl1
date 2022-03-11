@@ -7,4 +7,4 @@ jobs:
       - name: checkout repo
         uses: actions/checkout@v2
       - name: lint
-        run: make -f ./././Makefile lint
+        run: make lint
