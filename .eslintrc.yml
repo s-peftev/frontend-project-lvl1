@@ -6,13 +6,8 @@ extends:
   - airbnb-base
 parserOptions:
   ecmaVersion: latest
-rules: {
-  "no-console": "off",
-  "import/extensions": [
-    "error",
-    "ignorePackages",
-    {
-      "js": "always",
-    },
-  ],
-}
+rules:
+  {
+    "no-console": "off",
+    "import/extensions": ["error", "ignorePackages", { "js": "always" }],
+  }
