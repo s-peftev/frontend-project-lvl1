@@ -1,18 +1,7 @@
 const getRandomNumber = (digit) => Math.floor(Math.random() * digit);
 
 const getRandomOperation = () => {
-  const operators = [
-    '+',
-    '-',
-    '*',
-    '+',
-    '-',
-    '*',
-    '+',
-    '-',
-    '*',
-    '+',
-  ];
+  const operators = ['+', '-', '*', '+', '-', '*', '+', '-', '*', '+'];
 
   const operatorIndex = Math.floor(Math.random() * 10);
 

@@ -1,8 +1,9 @@
 import { selectGame, meetPlayer, getAnswer } from './cli.js';
 import getBrainEvenLogic from './games/brain-even-game.js';
 import getBrainCalcLogic from './games/brain-calc-game.js';
+import getBrainGCDLogic from './games/brain-gcd-game.js';
 
-const GAMES_LIST = ['Brain-Even', 'Brain-Calc'];
+const GAMES_LIST = ['Brain-Even', 'Brain-Calc', 'Brain-GCD'];
 
 const STAGES_COUNT = 3;
 
@@ -39,6 +40,9 @@ const runGame = (selectedGame) => {
       break;
     case 1:
       play(meetPlayer(), getBrainCalcLogic(STAGES_COUNT));
+      break;
+    case 2:
+      play(meetPlayer(), getBrainGCDLogic(STAGES_COUNT));
       break;
     default:
       console.log('BYE!!!');
