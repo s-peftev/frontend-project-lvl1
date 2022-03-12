@@ -3,8 +3,9 @@ import getBrainEvenLogic from './games/brain-even-game.js';
 import getBrainCalcLogic from './games/brain-calc-game.js';
 import getBrainGCDLogic from './games/brain-gcd-game.js';
 import getBrainProgressionLogic from './games/brain-progression-game.js';
+import getBrainPrimeLogic from './games/brain-prime-game.js';
 
-const GAMES_LIST = ['Brain-Even', 'Brain-Calc', 'Brain-GCD', 'Brain-Progression'];
+const GAMES_LIST = ['Brain-Even', 'Brain-Calc', 'Brain-GCD', 'Brain-Progression', 'Brain-Prime'];
 
 const STAGES_COUNT = 3;
 
@@ -47,6 +48,9 @@ const runGame = (selectedGame) => {
       break;
     case 3:
       play(meetPlayer(), getBrainProgressionLogic(STAGES_COUNT));
+      break;
+    case 4:
+      play(meetPlayer(), getBrainPrimeLogic(STAGES_COUNT));
       break;
     default:
       console.log('BYE!!!');
