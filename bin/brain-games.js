@@ -1,4 +1,4 @@
 #!/usr/bin/env node
-import meetPlayer from '../src/cli.js';
+import { run } from '../src/index.js';
 
-meetPlayer();
+run();
