@@ -7,7 +7,7 @@ const getBrainEvenLogic = (stagesCount) => {
 
   for (let i = 0; i < stagesCount; i += 1) {
     const questionNumber = getRandomNumber(100);
-    const correctAnswer = isEven(questionNumber) ? "yes" : "no";
+    const correctAnswer = isEven(questionNumber) ? 'yes' : 'no';
     questionsAndAnswers.push([questionNumber, correctAnswer]);
   }
 
