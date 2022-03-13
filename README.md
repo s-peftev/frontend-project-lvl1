@@ -29,7 +29,7 @@ brain-games-menu
 Choose a game to play. [1...5 / 0]:
 ```
 
-Start playing from main menu or run each game directly
+Start playing from main menu or run each game directly.
 
 * Brain Even
 
