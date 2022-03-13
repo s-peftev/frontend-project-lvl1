@@ -12,10 +12,10 @@ make install
 npm link
 ```
 
-* Brain Games
+* Brain Games Menu
 
 ```console
-brain-games
+brain-games-menu
 === BRAIN-GAMES ===
 ===     MENU    ===
 
